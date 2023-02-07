@@ -1,0 +1,38 @@
+h2{
+    color:brown; 
+    border-bottom: darkseagreen dashed 8px;
+    max-width: fit-content;
+    padding: 10px; 
+    font-size: xx-large;
+}
+
+h2:hover{
+    color:brown; 
+    border-bottom: none;
+    background-color: burlywood ;
+    font-size: xx-large;
+    padding: 10px; 
+    max-width: fit-content;
+}
+
+#title, #content{
+    width: 500px;
+}
+#btn{
+    margin-left:150px;
+    color: bisque;
+    border:none;
+    padding: 10px;
+    background-color: brown;
+    width:200px;
+    border-radius: 5px;
+}
+#btn:hover{
+    margin-left:150px;
+    color: bisque;
+    border:none;
+    padding: 10px;
+    background-color: sienna;
+    width:200px;
+    border-radius: 5px;
+}

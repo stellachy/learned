@@ -1,0 +1,27 @@
+#height, #weight{
+    width: 106px;
+}
+h2{
+    border-bottom: sienna solid 3px;
+    width: fit-content;
+    border-left: sienna solid 5px;
+    border-bottom-left-radius: 10px;
+}
+#btn{
+    border: none;
+    color:blanchedalmond;
+    background-color:sienna;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color: saddlebrown;
+}
+#result{
+    color: sienna;
+}
+#index{
+    color: sienna;
+    background-color: silver;
+    border-radius: 2px;
+    max-width: fit-content;
+}

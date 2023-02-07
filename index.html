@@ -1,0 +1,335 @@
+<!Doctype html>
+<html>
+    <head>
+        <!--meta是編碼的選擇，UTF-8是讓中文能被解碼的東東-->
+        <meta charset="UTF-8"/>
+        <meta name="description" content="Stella's coding learning progress, process, and lots of random practice." />
+        <!--搜尋之後，關於這個網站會出現的一小段描述（應該就是為了廣告或為了更加to the target）-->
+        <meta name="author" content="Stella Chuang" />
+        <meta name="keywords" content="self-learning, html, coding" />
+        <!--更直接的關鍵字讓搜尋引擎知道如何-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!--viewport是「視口」的意思，後面那段話是讓寬度=使用者打開的裝置的寬度，起始比例為100%、等比例的縮放。-->
+
+        <title> Stella's Coding Learning Page</title>
+        <link rel="stylesheet" href="style1.css"/>
+    </head>
+    <body>
+    <div class = "past">
+        <h1 id="head1">Author：Stella Chuang　Contact：bibobibobibo89919@gmail.com</h1>
+        <p><b>※這邊還不知道怎麼把這一槓設成一整行的那種，然後還有視窗在移動的時候會改變(應該是)字的排版，所以bgcolor會跟著改變嗚嗚嗚</b></p>
+        <p>p.s. 試過用height:80px去固定，但是感覺更醜嗚嗚</p>
+        <br/>
+        <br/>
+        <a href="page2.html" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/3669/3669981.png" width = 30px title="blogs icons" /></a>
+        <span style="font-size: 30px; position: relative; bottom:5px">|</span>
+        <a href="supplementary/sup1.html" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1/1358.png" width = "30"></a>
+        <h2 style="margin:50px 0 50px 0; padding: 20px; color:brown; border: burlywood solid 2px ; max-width: fit-content; border-radius: 50px 30px 30px 25px;">Day1, 2023/1/2</h2>
+        <p>This is <i>stella chuang</i>, it's <b>my first day</b> of learning <b><i>html!!!</i></b></p>
+        <br/>
+        <hr/>
+
+        <h2 style="color:brown; border: burlywood solid 2px ; max-width: fit-content; border-radius: 10px;">Day2, 2023/1/4</h2>
+        <p>hmmm, i didn't learn html yesterday because i went out with my friend spicy eating hot pot :')</p>
+        <br/>
+
+        <p>This is me. Doing online teaching with the cutie kidos with rock red hoodies!!</p>
+        <img id="jspractice" src="mypic_prac.jpg" width="300"/>
+        <!--可用width="200" height="200"來去設定圖片大小，想自動等比例縮放的話則設定其中一個就好-->
+        <!--插入外部圖片也是如下方式，找到圖片的網址再貼上就好-->
+        <img src="https://truth.bahamut.com.tw/s01/201907/edaa624f6882cdc725a9bca58659803b.JPG" height="200">可以降子嗎?ㄟ可以只是會加在圖片旁邊而已嘻嘻</img>
+        <br/>
+        <br/>
+        
+        <p>And this is me shooting pic as a record of bachelor graduation!!</p>
+        <video src="myvod_prac.mp4" controls height="500">Failed to insert QQ</video>
+        <!--要記得加controls影片才能播放鴨-->
+        <br/><br/>
+
+        <p><b>And</b> this is me doing <b style="background-color: bisque;" >micro teaching for SH</b> in ETP :/ on YouTube</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uUWt75xGqoQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <!--也可以改從yt上複製下來的嵌入的script，但老師沒有教！說有興趣要自己去學～-->
+        <hr/>
+
+        <p>More Info ∥ 
+        <a href="https://calendar.google.com/calendar/u/0/r?tab=rc">Calendar</a>  | 
+        <!--連結外部圖片也是如上方式，找到圖片的網址再貼上就好-->
+        <a href="page2.html">2</a>  |
+        <a href="mypic_prac.jpg">Me</a>  |
+        <a href="supplementary/sup1.html">Sup</a>  |
+        <a href="https://truth.bahamut.com.tw/s01/201907/edaa624f6882cdc725a9bca58659803b.JPG">Memes as practice for outside pic link</a>
+        </p>
+        <!--嘻嘻發現<p>可打文字，可是會自動跳到下一行去，所以如果把連接的標籤襄在<p></p>裡面，就可以成功變成一行我想要呈現的樣子了！！而且可以在其中加入|來分隔不同的連結，用這個好好玩！！！-->
+        <p><b>The above was what what I've learned today! It's so fun!!!! I can't stop!!!(JK LOL)</b></p>
+        <br/>
+        <hr/>
+
+        <h2 style="color:brown; border: burlywood solid 2px ; max-width: fit-content;">Day3, 2023/1/5</h2>
+        <p>As usual~, i will practice using what i learned today below!</p>
+        <h3>First thing: list and table</h3>
+        
+        <h4>List: Contact Me</h4>
+        <p>(just like bullet point)</p>
+        <ul class="contact">
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <!--yeahyeahyeah這邊成功自己再多加上昨天練習的link，可以在列表的內容裡面一樣加上link哦哦哦嘻嘻-->
+            <li>Instagram</li>
+            <li>Line</li>
+            <li>Phone</li>
+        </ul>
+        <p>and if we want them to have order, use: </p>
+        <ol class="contact">
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Line</li>
+            <li>Phone</li>
+        </ol>
+        <p>use different types of number to name the order: </p>
+        <ol type="I" class="contact">
+            <li>Facebook</li>
+            <li>Instagram</li>
+            <li>Line</li>
+            <li>Phone</li>
+        </ol>
+
+        <h4>Table: Habbits Tracker</h4>
+        <table width="300">
+            <!--跟圖片、影片一樣，想調間距(寬度)可以用width來調整-->
+            <!--tr就是橫列，td用來打表格內容-->
+            <tr>
+                <td>Dates/Habbits</td>
+                <td>Reading</td>
+                <td>Coding</td>
+            </tr>
+            <tr>
+                <td>1/4</td>
+                <td>1 hr</td>
+                <td>2 hrs</td>
+            </tr>
+            <!--To add one more line, add another "tr block!"-->
+            <tr>
+                <td>1/2</td>
+                <td>0.5 hr</td>
+                <td>1 hrs</td>
+            </tr>
+        </table>
+
+        <h3>Second thing: span and div容器</h3>
+        <p>nothing to practice presenting tho, basically like putting what we want them to be in a package! 
+            for later-on adjustment going more smoothly.
+        </p>
+
+        <h3>Third thing: 輸入標籤~input and textarea </h3>
+        <h4>Input: </h4>
+        <ul class="input">
+            <li>輸入一般帳號</li>
+            <input type="text" placeholder="User Account"/>
+            <li>輸入一般密碼</li>
+            <input type="password" placeholder="Password"/>
+            <li>輸入日期</li>
+            <input type="date"/>
+            <li>輸入checkbox</li>
+            <p><input type="checkbox"/>誰是臭暈船仔？</p>
+            <li>輸入一個range</li>
+            <p>今日心情4：<input type="range"/></p>
+            <li>上傳/輸入檔案</li>
+            <input type="file"/>
+            <li>跑出"提交"的按鈕(prac)</li>
+            <input type="submit"/>
+        </ul>
+
+        <h4>Textarea: </h4>
+        <Textarea>我叫...</Textarea>
+        </p>
+    <h3>Fourth thing: meta標籤</h3>
+    <p>這個標籤大部分都是在[增加網站資訊]用的，所以不太會顯示在網站上，沒有辦法展示出來～，把它寫在coding頁面的最上面當作練習而已（除非截圖加圖片辣、但我有點懶ㄟ，會補充在我的notion裡！）</p>
+    <img src="metacode_prac.jpg"/>
+    <p>好啦還是放上來證明我真ㄉ有練習哦哦哦哦!!!</p>
+    <br/>
+    <hr/>
+    
+    <h2 style="color:brown; border: burlywood solid 2px ; max-width: fit-content;">Day4, 2023/1/6</h2>
+    <h3>First thing： Color</h3>
+    <p>Dont have that much to say, just changing the words to different colors~</p>
+    <h3>Second thing： Padding and Margin</h3>
+    <p>不囉嗦上圖片（拍手）<img src="m&p_prac.jpg" width="300px"/></p>
+    <p>這就是margin跟padding在講的東西，用來控制[空間]</p>
+    <h3>Third thing： Float and Display</h3>
+    <h4>Float: Portfolio LOL</h4>
+    <p>詳細的解釋請看老師ㄉ講解，有3D的概念在！（大概就是這些標籤與呈現的文字有些是在下面，有些是在上面，要讓他們同時在同一個區塊的話，要讓在下面的標籤浮～起來）</p>
+    <p>這邊做一個簡單的練習：</p>
+    <div class="portfolio">
+        <img src="float_portfolio_prac.lnk" height="200px"/>
+        <ul style="position: relative; right: 0px; top:30px;">
+            <li>This is me.</li>
+            <li>On Dec. 30.</li>
+            <li>At Bamiland, in Yiland.</li>
+            <li>Took roughly 20 mins to get there.</li>
+            <li>Tried to take a lovely photo of me and cute bambi.</li>
+            <li>Tho all she wanted was to GET OUT OF HERE!!!!!! ;'( </li>
+        </ul>
+    </div>
+    <p><b>Sorry, 簡單就是不簡單，沒辦法讓兩個靠近一點QQQ用margin也沒辦法嗚嗚嗚</b></p>
+    <div>
+        <h4>Display</h4>
+        <p>就是之前有說標籤有兩種，一種是佔一整行的那種called 'block'、另一種是內容多大就佔多大的called 'inline'，display就是用來改變原本標籤的~</p>
+        <div style="position: relative;">
+            <p>E.g. </p>
+            <img src="display_prac.jpg" width="350px" style="float:right; position:relative;"/>
+            <div style="position: absolute; top: 0px; left: 100px;">
+                <div style="display:inline;">div1</div>
+                <div>div2</div>
+                <span>span1</span>
+                <span>span2</span>
+                <span style="display: block;">span3</span>
+            </div>
+        </div>
+        <br/>
+        <br/>
+        <p>嗚嗚跟上面一樣，沒辦法縮小兩個之間的距離QQQ，真的有在難ㄟ</p>
+    </div>
+    <br/>
+    <hr/>
+    
+    <h2 style="color:brown; border: burlywood solid 2px ; max-width: fit-content;">Day5, 1/9</h2>
+    <h3>1st: Position</h3>
+    <p>練習在h1裡面~(有關fixed的部分)、relative練習在bambi photo&列點的距離縮小！(成功解決上禮拜ㄉ問題了!!!)，然後absolute練習在display那裡~(有比較懂一點點ㄌ^_^)(吧)</p>
+    <p><b>挖另一個問題是如果把它也position我用h1的fixed position不會蓋過它:'( *pain*</b></p>
+    <h3>2nd: opacity and boarder-radius</h3>
+    <h4>opacity</h4>
+    <p>practice在h1那裡，基本上就是調整透明度，要注意的地方是值是0-1而已！</p>
+    <h4>border-radius</h4>
+    <p>practice在h2的day1(for different sizes) and day2(fixed 10px). They're soooo cuttttee. </p>
+    <br/>
+    <hr/>
+
+    <h2 style="color:brown; border: burlywood solid 2px ; max-width: fit-content;">Day6, 1/10</h2>
+    <h3>1st: css標籤ㄉ另一種寫法！</h3>
+    <p>它可以一次改全部！要注意的是必須放在head標籤裡面(欸好像也可以不用捏！！！)，且用法是<style>p{color:sienna}</style>像是這樣表示以下所有p都會是棕色迪（其他還有練習h3~）；另外還要記得border要給三個值：顏色　線條呈現　線的大小</p>
+    <h3>2nd：css放額外的檔案再引入</h3>
+    <p>practice在style1，其他注意事項放在notion裡man了！</p>
+    <h3>3rd：Class & Id</h3>
+    <p>把head1設成id移到另一頁的css&class分成contact的class跟input的class，id在css裡用#開啟、class用.開啟（然後救命…我都快忘記怎麼用inputㄌ…………怕豹QQ）</p>
+    <input type="password" placeholder="幹什麼東西都忘光光趕緊練習一下"/>
+    <br>
+    <input type="file"/>
+    <input type="submit" style="color: brown; border: 2px dashed blue; font-size: 20px"/>
+    <h3>4th：More About css...</h3>
+    <p>練習一點點在input那邊，基本上就是標籤可直接打、屬性的話要加[]、依序掃描標籤的話就照順序寫用空白隔開、在該標籤或屬性後面加上:hover意思是滑鼠滑過去的時候才會套用這一個css，然後還有很..多....方...式....要自己上網練:')</p>
+    <br/>
+    <hr/>
+
+    <h2>Day7, 1/11</h2>
+    <h3>1st: Flex(很難ㄟ)</h3>
+    <div class="container">
+        <div class="object1">Week1</div>
+        <div class="object2">Week2</div>
+        <div class="object3">Week3</div>
+        <!--<div class="object1">Week1</div>
+        <div class="object2">Week2</div>
+        <div class="object3">Week3</div>
+        <div class="object1">Week1</div>
+        <div class="object2">Week2</div>
+        <div class="object3">Week3</div>
+        <div class="object1">Week1</div>
+        <div class="object2">Week2</div>
+        <div class="object3">Week3</div>-->
+    </div>
+    <!--display: flex：是把排列方法從直(由上至下)的變成橫的(由左至右)-->
+    <p>之前portfolio沒辦法縮小&固定在一個範圍裡面，now用border可以把它框住！！（剛剛試過發現不用border框住也okie dokie!!!，只要包一個div再用width設定想要的寬度即可~）</p>
+    <br/>
+    <hr/>
+
+
+    <h2>Day8, 1/12</h2>
+    <h3>1st: 先把昨天還迷迷糊糊的flex再補上圖片、整理一下</h3>
+    <h3>2nd: Animation</h3>
+    <P>animation的練習</P>
+    <div class="box box-animation "></div>
+    <br/>
+    <hr/>
+
+    <h2>Day9, 1/13</h2>
+    <h3>1st: how to write java(2ways)</h3>
+    <script>document.write("是這樣嗎"); document.write("<h3>還有這樣</h3>");</script>
+    <script src="javascript1.js"></script>
+    <h3>2nd: 資料型態、註解&變數</h3>
+    <script src="javascript1.js"></script>
+    <br/>
+    can i write things directly? >> omg i know get this...
+    <h3>3rd: 字串&字串用法</h3>
+    <script src="javascript2.js"></script>
+    <p>偷偷寫一些自己今天練習到的總結，感覺今天講的東西都不太難（理解德的部分），可能因為之前有修過資料分析，所以其實很多概念是比較能夠掌握，可是java的語法也太~~~~複~~~雜~~~~~，我要中風ㄌ</p>
+    然後還有另一件事是我還沒搞懂ㄉ，例如那什麼應該用html來寫、什麼時候用java，還有就是像留言問的，那我要怎麼在jave裡叫出css？？
+    <br/>
+    （好我試著在java裡面想要寫div重製昨天的動畫，可是打不開ㄏㄏ…？？？，之後再慢慢來好ㄌ～）
+    <br/>
+    <br/>
+    <hr/>
+
+    <h2>Day10, 1/14(六)</h2>
+    <p>先偷偷記錄，沒想到假日我也想練習codingggg！！</p>
+    <h3>1st: 數字&數字用法</h3>
+    <script src="javascript3.js"></script>
+    <br/>
+    <br/>
+    <hr/>
+
+    <h2>Day11, 1/16(一)</h2>
+    <p>(最近在教的邏輯都好無聊(????))，是可以理解的，但就覺得那我學會這個要怎麼樣應用？大概是這種感覺Q btw 當作失效的那個now work...媽呀，然後又失效ㄌ真的是唉唷我ㄉ媽壓</p>
+    <h3>1st: If判斷</h3>
+    <script src="javascript4.js"></script>
+    <br/>
+    <br/>
+    <hr/>
+
+    <h2>Day12, 1/21(六)</h2>
+    <p>好多天沒練習！來看看會不會出帶幾XD</p>
+    <h3>1st: while 迴圈</h3>
+    <script src="javascript5.js"></script>
+    <img src="mypic_prac.jpg" width="300px">欸我突然發現再js裡面不能insert圖片進來!!!!*pain*</img>
+    <br/>
+    <br/>
+    <hr/>
+
+
+    <h2>Day13, 2/1(三)</h2>
+    <p>超級多天沒練習！基本公式忘記百分之８０哈哈哈哈，剛剛要打開vsCode還打不開(要中風ㄌ)</p>
+    <h3>1st: for 迴圈</h3>
+    <script src="javascript6.js"></script>
+    <p>但是那個巧連智我要明天再寫！</p>
+    <br/>
+    <br/>
+    <hr/>
+    
+</div>
+
+
+    <h2>Day14, 2/2(四)</h2>
+    <p>yeasssssss,來試試看怎麼用巢狀迴圈寫出物件的巧連智哦</p>
+    <h3>1st: 巧連智：巢狀迴圈＋二維陣列</h3>
+    <script src="javascript7.js"></script>
+    <p>用了一下css的class(真的把我搞得頭昏腦脹乾(愛心眼))</p>
+    <br/>
+    <br/>
+    <hr/>
+
+    <h2>Day15, 2/3(五)</h2>
+    <p>今天第一個學的是event listener，這邊感覺就比較好玩ㄌ，感覺可以換出很多花樣的樣子！！（嗎）來練習看看！</p>
+    <h3>1st: Event Listener</h3>
+    <input type = "text" placeholder="User Account" id="user" />
+    <button id = "btn">按我</button>
+    <script src="javascript8.js"></script>
+    <p>今天有把怎麼製作部落格看完了，可是總覺得還是沒辦法找到如何製作電商網站那樣的方法QQ，就是卡在資料如何記錄、轉出等等的，還是說這就是為什麼需要有人寫程式，再把資料轉出給使用者（嗚嗚嗚）（真的好難）</p>
+    <br/>
+    <br/>
+    <hr/>
+
+    <h2>Day15, 2/5(日)</h2>
+    <p>今天來練習grandmacan初階javascript的最後一個部落個製作的練習！我想在page2的html裡做練習~(index已經有點煩到我惹嗚嗚)</p>
+    <p>i'm done!!!!!!!!!</p>
+    <br/>
+    <br/>
+    <hr/>
+</body>
+</html>
